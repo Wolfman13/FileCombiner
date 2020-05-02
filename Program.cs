@@ -30,7 +30,7 @@ class Program
 
                     if (list.Count >= 10000000)
                     {
-                        Console.WriteLine($"Emergency write out. Word Count: {passwordCounter}");
+                        Console.WriteLine($"Emergency write out. Word Count: {wordCounter}");
                         WriteToFile(list);
 
                         list = new List<string>();
